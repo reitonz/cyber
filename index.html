@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="slick.css">
+  <link rel="stylesheet" href="slick-theme.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>サイバー大学/模写サイト</title>
+</head>
+<body>
+  <div class="wrapper">
+  <aside class="side">
+    <div class="sticky">
+    <h1><a href=""><img src="img/logo-sp.png" alt=""></a></h1>
+    <nav>
+      <ul>
+        <li class="hover">
+         <p class="myu"><a href="">サイバー大学とは？</a><span><i class="fas fa-chevron-right"></i></span></p>
+
+         <nav class="fade-in">
+           <ul>
+             <li><a href="">働きながら大学資格<span><i class="fas fa-chevron-right"></i></span></a></li>
+             <li><a href=""> 最新の学習システム<span><i class="fas fa-chevron-right"></i></span></a></li>
+             <li><a href="">わかりやすい授業<span><i class="fas fa-chevron-right"></i></span></a></li>
+             <li><a href="">体系立てたカリキュラム<span><i class="fas fa-chevron-right"></i></span></a></li>
+             <li><a href="">学びやすい学費<span><i class="fas fa-chevron-right"></i></span></a></li>
+             <li><a href="">充実したサポート体制<span><i class="fas fa-chevron-right"></i></span></a></li>
+             <li><a href="">安心の就職支援<span><i class="fas fa-chevron-right"></i></span></a></li>
+           </ul>
+         </nav>
+        </li>
+        <li class="hover">
+          <p class="myu"><a href="">入学案内</a><span><i class="fas fa-chevron-right"></i></span></p>
+          <nav class="fade-in">
+           <ul>
+            <li><a href="">正科生<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">編入学・転入学<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">特修生<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">科目等履修生<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">入学方法診断<span><i class="fas fa-chevron-right"></i></span></a></li>
+           </ul>
+         </nav>
+        </li>
+        <li class="hover">
+          <p class="myu"><a href="">大学案内</a><span><i class="fas fa-chevron-right"></i></span></p>
+         <nav class="fade-in">
+           <ul>
+            <li><a href="">学長の挨拶<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">大学概要<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">お知らせ<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">大学基本情報<span><i class="fas fa-chevron-right"></i></span></a></li>
+           </ul>
+         </nav>
+        </li>
+        <li class="hover">
+          <p class="myu"><a href="">学費・奨学金</a><span><i class="fas fa-chevron-right"></i></span></p>
+         <nav class="fade-in">
+           <ul>
+            <li><a href="">正科生<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">編入学・転入学<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">特修生<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">科目等履修生<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">日本学生支援機構 奨学金<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">学費ローン（オリコ）<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">学業優秀者奨学金<span><i class="fas fa-chevron-right"></i></span></a></li>
+           </ul>
+         </nav>
+        </li>
+        <li class="hover">
+          <p class="myu"><a href="">学部紹介</a><span><i class="fas fa-chevron-right"></i></span></p>
+         <nav class="fade-in">
+           <ul>
+            <li><a href="">テクノロジーコース<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">ビジネスコース<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">ITコミュニケーションコース<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">教員紹介<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">科目紹介<span><i class="fas fa-chevron-right"></i></span></a></li>
+           </ul>
+         </nav>
+        </li>
+        <li class="hover">
+          <p class="myu"><a href="">サイバー大学Life</a><span><i class="fas fa-chevron-right"></i></span></p>
+         <nav class="fade-in">
+           <ul>
+            <li><a href="">学生の声<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">教員インタビュー<span><i class="fas fa-chevron-right"></i></span></a></li>
+            <li><a href="">学生生活<span><i class="fas fa-chevron-right"></i></span></a></li>
+           </ul>
+         </nav>
+        </li>
+        <li>
+          <p class="myu"><a href="">よくある質問</a><span><i class="fas fa-chevron-right"></i></span></p>
+        </li>
+      </ul>
+    </nav>
+    <div class="ver">
+      <p><a href=""><span>ー</span>在学生・卒業の方へ</a></p>
+      <a href="">無料資料請求<span><i class="fas fa-chevron-right"></i></span></a>
+      <a href="">入学手続サイトへ<span><i class="fas fa-chevron-right"></i></span></a>
+    </div>
+
+    <div class="language">
+
+    </div>
+
+    <div class="aside-sns">
+      <div>
+        <p><i class="fas fa-search"></i></p>
+      </div>
+      <div>
+        <p><i class="fab fa-twitter"></i></p>
+      </div>
+      <div>
+        <p><i class="fab fa-facebook-f"></i></p>
+      </div>
+    </div>
+  </div>
+  </aside>
+
+
+  <main>
+    <div class="head-img">
+      <img  src="img/head-pc.jpg" alt="">
+    </div>
+    <div class="slide">
+      <nav>
+        <ul class="slider">
+          <li><a href=""><img src="img/annex_slider.jpg" alt=""></a></li>
+          <li><a href=""><img src="img/credit.jpg" alt=""></a></li>
+          <li><a href=""><img src="img/event_online_20f.jpg" alt=""></a></li>
+          <li><a href=""><img src="img/ITxEnglish_slider_02.jpg" alt=""></a></li>
+          <li><a href=""><img src="img/slider_ai.png" alt=""></a></li>
+          <li><a href=""><img src="img/slider_cc.png" alt=""></a></li>
+          <li><a href=""><img src="img/recruitment_20f05.jpg" alt=""></a></li>
+          <li><a href=""><img src="img/pampflet.jpg" alt=""></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="reception">
+      <p class="point">2020年度秋学期生 出願受付期間</p>
+      <div class="box">
+        <p>五次募集期間<span>本日まで！</span></p>
+        <dl>
+          <div>
+            <dt>2020/</dt>
+            <dd>9/8 <span>火</span></dd>
+          </div>
+          <p class="bar">ー</p>
+          <div>
+            <dt>2020/</dt>
+            <dd>9/14 <span>月</span></dd>
+          </div>
+        </dl>
+        <a href="">出願申し込み<span><i class="fas fa-chevron-right"></i></span></a>
+
+      </div>
+      <p class="point2">大学説明会スケジュール</p>
+      <div class="box">
+        <p class="online">オンライン</p>
+        <dl>
+          <div>
+            <dt>2020/</dt>
+            <dd>9/8 <span>火</span></dd>
+          </div>
+          <p class="bar">ー</p>
+          <div>
+            <dt>2020/</dt>
+            <dd>9/14 <span>月</span></dd>
+          </div>
+        </dl>
+        <hr class="border">
+        <a href="">詳細・説明会申込み<span><i class="fas fa-chevron-right"></i></span></a>
+      </div>
+    </div>
+
+    <div class="news">
+      <div class="news-top">
+        <hr class="border col-1">
+        <h2 class="col-7">NEWS <span>INFORMATION</span></h2>
+        <div class="col-4">
+          <p>お知らせ</p>
+          <p>プレスリリース</p>
+        </div>
+      </div>
+
+      <div class="news-content">
+        <div class="content">
+          <a href="">
+          <label for="" class="none">
+            <div>
+              <p>→</p>
+            </div>
+          </label>
+          <div class="top">
+            <div>
+              <dl>
+                <dt>2020 MON</dt>
+                <dd>09/07</dd>
+              </dl>
+            </div>
+            <div>
+              <img src="img/infoimg03-800x533.jpeg" alt="">
+            </div>
+          </div>
+          <div class="bottom">
+            <span class="purple">大学からのお知らせ</span>
+            <p class="bold">[入学案内]五次募集の出願受付を開始します</p>
+            <p>募集対象：2020年度秋学期生（10月入学）</p>
+            <p>募集期間：2020年9月8日（火）〜9月14日（月）</p>
+          </div>
+        </a>
+        </div>
+        <div class="content">
+          <a href="">
+            <label for="" class="none">
+              <div>
+                <p>→</p>
+              </div>
+            </label>
+          <div class="top">
+            <div>
+              <dl>
+                <dt>2020 WED</dt>
+                <dd>09/02</dd>
+              </dl>
+            </div>
+            <div>
+              <img src="img/infoimg08-800x534.jpg" alt="">
+            </div>
+          </div>
+          <div class="bottom">
+            <span class="orange">プレスリリース</span>
+            <p class="bold">成蹊大学、サイバー大学のオンライン授業コンテンツを2020年9月より利用開始 <br>
+              ～フルオンライン大学のノウハウを通学制大学に導入する新しい試み～</p>
+          </div>
+          </a>
+        </div>
+        <div class="content">
+          <a href="">
+             <label for="" class="none">
+            <div>
+              <p>→</p>
+            </div>
+          </label>
+          <div class="top">
+            <div>
+              <dl>
+                <dt>2020 FRI</dt>
+                <dd>08/28</dd>
+              </dl>
+            </div>
+            <div>
+              <img src="img/infoimg00.png" alt="">
+            </div>
+          </div>
+          <div class="bottom">
+            <span class="purple">大学からのお知らせ</span>
+            <p class="bold">新型コロナウイルス感染症の影響を受けた学生への国民年度年金保険料
+              の臨時特例措置について
+            </p>
+          </div>
+        </a>
+        </div>
+        <div class="content">
+          <a href="">
+             <label for="" class="none">
+              <div>
+                <p>→</p>
+              </div>
+            </label>
+          <div class="top">
+            <div>
+              <dl>
+                <dt>2020 THU</dt>
+                <dd>08/20</dd>
+              </dl>
+            </div>
+            <div>
+              <img src="img/infoimg03-800x533.jpeg" alt="">
+            </div>
+          </div>
+          <div class="bottom">
+            <span class="purple">大学からのお知らせ</span>
+            <p class="bold">[入学案内]四次募集の出願受付を開始します</p>
+            <p>募集対象：2020年度秋学期生（10月入学）</p>
+            <p>募集期間：2020年8月21日（火）〜9月7日（月）</p>
+          </div>
+        </a>
+        </div>
+        <div class="content">
+          <a href="">
+             <label for="" class="none">
+            <div>
+              <p>→</p>
+            </div>
+          </label>
+          <div class="top">
+            <div>
+              <dl>
+                <dt>2020 FRI</dt>
+                <dd>08/07</dd>
+              </dl>
+            </div>
+            <div>
+              <img src="img/arai_main001.jpg" alt="">
+            </div>
+          </div>
+          <div class="bottom">
+            <span class="green">学部からのお知らせ</span>
+            <p class="bold">[学生の声]IT総合学部 新井 涼さんのインタビューを掲載しました</p>
+          </div>
+        </a>
+        </div>
+        <div class="content">
+          <a href="">
+             <label for="" class="none">
+            <div>
+              <p>→</p>
+            </div>
+          </label>
+          <div class="top">
+            <div>
+              <dl>
+                <dt>2020 THU</dt>
+                <dd>08/06</dd>
+              </dl>
+            </div>
+            <div>
+              <img src="img/2020_7_ws.jpg" alt="">
+            </div>
+          </div>
+          <div class="bottom">
+            <span class="green">学部からのお知らせ</span>
+            <p class="bold">「第３回 オンライン授業活用のためのワークショップ」を開催しました</p>
+            <p>主催：サイバー大学</p>
+          </div>
+        </a>
+        </div>
+      </div>
+      <a href="" class="notice">お知らせ一覧へ <span><i class="fas fa-bars"></i></span></a>
+
+      <div class="news-bottom">
+        <hr class="border col-1">
+        <h2 class="col-11">NEWS <a href="">過去のセミナーへ</a></h2>
+      </div>
+      <p class="small">次回のセミナー開催をお待ち下さい。</p>
+    </div>
+
+    <div class="about">
+      <div class="about-top">
+        <hr class="border col-1">
+        <h2 class="col-10">ABOUT <span>サイバー大学のご紹介</span></h2>
+      </div>
+
+      <div class="about-content">
+        <div class="contents">
+          <div class="about-img">
+            <a href="">
+              <label for="" class="none">
+                <div>
+                  <p>→</p>
+                </div>
+              </label>
+              <img src="img/about_img01.jpg" alt="">
+            </a>
+          </div>
+          <div class="about-text">
+            <h3 class="bold">サイバー大学とは？</h3>
+            <p>サイバー大学は、いつも・どこでも・誰でも学べる新しい形の大学です。</p>
+          </div>
+        </div>
+        <div class="contents">
+          <div class="about-img">
+            <a href="">
+              <label for="" class="none">
+                <div>
+                  <p>→</p>
+                </div>
+              </label>
+              <img src="img/about_img02.jpg" alt="">
+            </a>
+          </div>
+          <div class="about-text">
+            <h3 class="bold">入学案内</h3>
+            <p>選べる入学方法と、出願から入学までの流れをご紹介します。</p>
+          </div>
+        </div>
+        <div class="contents">
+          <div class="about-img">
+            <a href="">
+              <label for="" class="none">
+                <div>
+                  <p>→</p>
+                </div>
+              </label>
+              <img src="img/about_img03.jpg" alt="">
+            </a>
+          </div>
+          <div class="about-text">
+            <h3 class="bold">学部案内</h3>
+            <p>サイバー大学の学部と特徴的なコースをご紹介します。</p>
+          </div>
+        </div>
+        <div class="contents">
+          <div class="about-img">
+            <a href="">
+              <label for="" class="none">
+                <div>
+                  <p>→</p>
+                </div>
+              </label>
+              <img src="img/about_img04.jpg" alt="">
+            </a>
+          </div>
+          <div class="about-text">
+            <h3 class="bold">学費・奨学金</h3>
+            <p>サイバー大学の学費に関して、入学方法別にご説明します。</p>
+          </div>
+        </div>
+      </div>
+    </div><!--about-->
+
+    <div class="life">
+      <h2><img src="img/culife_title-pc.png" alt=""></h2>
+      <a href="" class="button-life">サイバー大学LIFEへ</a>
+
+      <div class="life-contents">
+        <div class="content">
+          <img src="img/suzuki_semimar2.jpg" alt="">
+          <div class="life-text">
+            <p class="small">2020.08.07</p>
+            <p>暗号解読とサイバー戦争 ～リモートワーク時代のサイバーセキュリティ～</p>
+          </div>
+        </div>
+        <div class="content">
+          <img src="img/arai_main001.jpg" alt="">
+          <div class="life-text">
+            <p class="small">2020.09.18</p>
+            <p>「地元でITが学べない、それならオンラインで」自分の進路を見出しエンジニアになる夢をつかむ</p>
+          </div>
+        </div>
+        <div class="content">
+          <img src="img/kawaguchi_main001_2.jpg" alt="">
+          <div class="life-text">
+            <p class="small">2020.05.29</p>
+            <p>経理以外にも視野を広げるために入学。ITとビジネスを基礎から学んで将来の選択肢を増やしたい</p>
+          </div>
+        </div>
+        <div class="content">
+          <img src="img/yumigeta_main001.jpg" alt="">
+          <div class="life-text">
+            <p class="small">2020.04.24</p>
+            <p>仕事で学歴の差を感じていたいたことから入学を決意。発展著しいIT知識をキャッチアップし大手建設会社への転勤を実現</p>
+          </div>
+        </div>
+        <div class="content">
+          <img src="img/takahashi_main001.jpg" alt="">
+          <div class="life-text">
+            <p class="small">2020.03.27</p>
+            <p>家事・育児と両立しながら柔軟に学習。経営とITを学んだことで、企業経営に携わることや起業するという考えが鮮明に</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pick">
+      <div class="about-top">
+        <hr class="border col-1">
+        <h2 class="col-10">PICK UP <span>おすすめピックアップコンテンツ！</span></h2>
+      </div>
+
+      <div class="pick-img">
+          <ul class="thumb">
+            <li><a href="#"><img src="img/banner_01.png" alt="image01"></a></li>
+            <li><a href="#"><img src="img/banner_02.jpg" alt="image02"></a></li>
+            <li><a href="#"><img src="img/banner_03.png" alt="image03"></a></li>
+            <li><a href="#"><img src="img/banner_05.png" alt="image04"></a></li>
+            <li><a href="#"><img src="img/banner_06.jpg" alt="image05"></a></li>
+            <li><a href="#"><img src="img/banner_07.jpg" alt="image06"></a></li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="sns">
+      <div>
+
+      </div>
+      <div>
+
+      </div>
+    </div>
+  </main>
+  </div>
+
+  <footer>
+    <div class="top">
+    <aside>
+      <div class="footer-icon">
+        <a href=""><img src="img/logo-pc.png" alt=""></a>
+      </div>
+
+      <nav>
+        <ul>
+          <a href=""><li>お知らせ<span><i class="fas fa-chevron-right"></i></span></li></a>
+          <a href=""><li>プレスリリース<span><i class="fas fa-chevron-right"></i></span></li></a>
+          <a href=""><li>セミナー情報<span><i class="fas fa-chevron-right"></i></span></li></a>
+          <a href=""><li>入学個別相談<span><i class="fas fa-chevron-right"></i></span></li></a>
+          <a href=""><li>大学説明会<span><i class="fas fa-chevron-right"></i></span></li></a>
+          <a href=""><li>サイバー大学Life<span><i class="fas fa-chevron-right"></i></span></li></a>
+          <a href=""><li>在学生・卒業生の方へ<span><i class="fas fa-chevron-right"></i></span></li></a>
+          <a href=""><li>企業・団体の方へ<span><i class="fas fa-chevron-right"></i></span></li></a>
+          <a href=""><li>入学手続サイトへ<span><i class="fas fa-chevron-right"></i></span></li></a>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <div class="contact">
+        <div class="number">
+          <p>サイバー大学入学係</p>
+          <div class="num">
+            <img src="img/icon_freecall-pc.png" alt="">
+            <p>0120-948-318</p>
+          </div>
+          <p class="small">10:00~19:00(日曜を除く)</p>
+        </div>
+        <div class="mail">
+          <div>
+            <a href="">メールで問い合わせ</a>
+          </div>
+          <div>
+            <a href="">無料資料請求</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="docs">
+        <div class="doc">
+          <h3>サイバー大学とは？<span><i class="fas fa-chevron-right"></i></span></h3>
+          <tr>
+            <th>５つの特徴</th>
+            <ul>
+              <li><a href="">通学必要なし！働きながら大学資格が取れる</a></li>
+              <li><a href="">いつでもどこでも学べる！最新の学修システム</a></li>
+              <li><a href="">学生の意見を取り入れたわかりやすい授業</a></li>
+              <li><a href="">基礎から応用まで、体系立てたカリキュラム</a></li>
+              <li><a href="">他大学と比べて、学びやすい学費</a></li>
+            </ul>
+          </tr>
+        </div>
+        <div class="doc">
+          <h3>入学案内<span><i class="fas fa-chevron-right"></i></span></h3>
+          <a href="">入学手続サイト</a>
+          <a href="">Cloud Campusログイン</a>
+          <tr>
+            <th>入学案内</th>
+            <ul>
+              <li><a href="">正科生</a></li>
+              <li><a href="">正科生：提出書類に関して</a></li>
+              <li><a href="">編入学・転入学</a></li>
+              <li><a href="">編入学：提出書類に関して</a></li>
+              <li><a href="">特修正</a></li>
+              <li><a href="">特修正：提出書類に関して</a></li>
+              <li><a href="">科目等履修生</a></li>
+              <li><a href="">科目等履修生：提出書類に関して</a></li>
+            </ul>
+          </tr>
+        </div>
+        <div class="doc">
+          <h3>大学案内<span><i class="fas fa-chevron-right"></i></span></h3>
+          <a href="">学長のあいさつ</a>
+          <a href="">大学概要</a>
+          <a href="">お知らせ</a>
+          <tr>
+            <th>基本情報</th>
+            <ul>
+              <li><a href="">施設案内</a></li>
+              <li><a href="">収容定員・入学者数</a></li>
+              <li><a href="">学生データ</a></li>
+              <li><a href="">「通学不要」で広がる可能性</a></li>
+              <li><a href="">点数・評価</a></li>
+              <li><a href="">研究活動の不正行為防止への取り組み</a></li>
+              <li><a href="">３つのポリシー</a></li>
+              <li><a href="">eラーニング研究</a></li>
+              <li><a href="">教育改善への取り組み（FD活動）</a></li>
+              <li><a href="">教育情報の公表</a></li>
+              <li><a href="">シラバス</a></li>
+            </ul>
+          </tr>
+        </div>
+        <div class="doc">
+          <h3>学費・奨学金<span><i class="fas fa-chevron-right"></i></span></h3>
+          <a href="">正科生</a>
+          <a href="">正科生：提出書類に関して</a>
+          <a href="">編入学・転入学</a>
+          <a href="">編入学：提出書類に関して</a>
+          <a href="">特修正</a>
+          <a href="">特修正：提出書類に関して</a>
+          <a href="">科目等履修生</a>
+          <a href="">科目等履修生：提出書類に関して</a>
+        </div>
+        <div class="doc">
+          <h3>学部紹介<span><i class="fas fa-chevron-right"></i></span></h3>
+          <a href="">テクノロジーコース</a>
+          <a href="">ビジネスコース</a>
+          <a href="">編入学・転入学</a>
+          <a href="">ITコミュニケーションコース</a>
+          <a href="">科目紹介</a>
+          <a href="">教員紹介</a>
+          <a href="">科目等履修生</a>
+          <a href="">資格取得に活かせる科目</a>
+        </div>
+        <div class="doc">
+          <h3>学生支援・キャリア<span><i class="fas fa-chevron-right"></i></span></h3>
+          <tr>
+            <th>サポート体制</th>
+            <ul>
+              <li><a href="">授業サポートについて</a></li>
+              <li><a href="">学生サポートについて</a></li>
+              <li><a href="">システムサポートについて</a></li>
+              <li><a href="">精神的・身体的疾患のある方への修学支援</a></li>
+              <li><a href="">卒業生 障害学習プログラム</a></li>
+            </ul>
+          </tr>
+          <tr>
+            <th>キャリア・就職支援</th>
+            <ul>
+              <li><a href="">就職支援（新卒・第二新卒）</a></li>
+              <li><a href="">転職支援（中途採用）</a></li>
+              <li><a href="">卒業生の活躍先</a></li>
+              <li><a href="">企業・団体の方へ</a></li>
+            </ul>
+          </tr>
+        </div>
+        <div class="doc">
+          <h3>よくある質問<span><i class="fas fa-chevron-right"></i></span></h3>
+          <a href="">サイバー大学</a>
+          <a href="">正科生への入学について</a>
+          <a href="">編入学・転入学について</a>
+          <a href="">学費について</a>
+          <a href="">IT総合学部のカリキュラムについて</a>
+          <a href="">科目等履修生・特修生について</a>
+          <a href="">卒業（学士号の取得）・単位の修得について</a>
+          <a href="">学生生活や受講環境・サポート体制について</a>
+        </div>
+        <div class="doc">
+
+        </div>
+      </div>
+    </main>
+    </div>
+    <div id="bottom">
+      <div>
+        <a href="">サイバー大学開学１０周年記念サイト<span><i class="fas fa-chevron-right"></i></span></a>
+        <a href="">スキルアップのためのJOB診断<span><i class="fas fa-chevron-right"></i></span></a>
+        <a href="">サイバー大学だからできる新しい学びのカタチ<span><i class="fas fa-chevron-right"></i></span></a>
+        <a href="">AIテクノロジープログラム<span><i class="fas fa-chevron-right"></i></span></a>
+      </div>
+      <div>
+        <a href="">新しい「Cloud Campus」をご紹介！<span><i class="fas fa-chevron-right"></i></span></a>
+        <a href="">通信制大学へ行こう！<span><i class="fas fa-chevron-right"></i></span></a>
+      </div>
+    </div>
+
+    <div class="footer-nav">
+      <nav>
+        <ul>
+          <li><a href="">会社概要</a></li>
+          <li><a href="">サイトご利用にあたって</a></li>
+          <li><a href="">情報セキュリティポリシー</a></li>
+          <li><a href="">個人情報保護方針</a></li>
+          <li><a href="">特定商取引法に基づく表記</a></li>
+          <li><a href="">必要環境</a></li>
+          <li><a href="">サイトマップ</a></li>
+          <li><a href="" style="border-right: transparent;">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="copyright">
+      <small>Copyright © Cyber University Inc. All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <div id="top"><i class="fas fa-angle-up"></i></div>
+
+  <script  type="text/javascript" src="slick.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
